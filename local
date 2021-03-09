@@ -1,0 +1,222 @@
+2021-03-08 18:19:32.206  INFO 2428 --- [restartedMain] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.4.2)[0;39m
+
+
+2021-03-08 18:19:32.210  INFO 2428 --- [restartedMain] com.smart.project.ProjectApplication     : Starting ProjectApplication using Java 1.8.0_271 on DESKTOP-B20IDH7 with PID 2428 (C:\Users\smhrd\Desktop\smart_project\build\classes\java\main started by smhrd in C:\Users\smhrd\Desktop\smart_project)
+2021-03-08 18:19:32.210  INFO 2428 --- [restartedMain] com.smart.project.ProjectApplication     : The following profiles are active: local
+2021-03-08 18:19:32.409  INFO 2428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-03-08 18:19:32.410  INFO 2428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 18:19:32.410  INFO 2428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 18:19:32.421  INFO 2428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 18:19:32.421  INFO 2428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2021-03-08 18:19:32.427 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class oracle.jdbc.OracleDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2cf3830d
+2021-03-08 18:19:32.431 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : master - configuration:
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............4900
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@127.0.0.1:1521:XE
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................30010
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................1
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-03-08 18:19:32.432 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................1
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : poolName........................"master"
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : username........................"hr"
+2021-03-08 18:19:32.433 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-03-08 18:19:32.433  INFO 2428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : master - Starting...
+2021-03-08 18:19:32.442 DEBUG 2428 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : master - Added connection oracle.jdbc.driver.T4CConnection@1c48007e
+2021-03-08 18:19:32.442  INFO 2428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : master - Start completed.
+2021-03-08 18:19:32.519  WARN 2428 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-03-08 18:19:32.523  INFO 2428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-08 18:19:32.529  INFO 2428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-03-08 18:19:32.532  INFO 2428 --- [restartedMain] com.smart.project.ProjectApplication     : Started ProjectApplication in 0.349 seconds (JVM running for 121.358)
+2021-03-08 18:19:32.532  INFO 2428 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-08 18:19:32.544 DEBUG 2428 --- [master housekeeper] com.zaxxer.hikari.pool.HikariPool        : master - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-08 18:19:32.545 DEBUG 2428 --- [master housekeeper] com.zaxxer.hikari.pool.HikariPool        : master - Fill pool skipped, pool is at sufficient level.
+2021-03-08 18:19:37.282  INFO 2428 --- [http-nio-8083-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:19:37.282  INFO 2428 --- [http-nio-8083-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 18:19:37.283  INFO 2428 --- [http-nio-8083-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-08 18:19:53.569 ERROR 2428 --- [http-nio-8083-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.Response.action(Response.java:209) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:228) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:555) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:19:53.569 ERROR 2428 --- [http-nio-8083-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.Response.action(Response.java:209) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:228) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:555) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.3.jar:5.3.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.3.jar:5.3.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:19:53.571 ERROR 2428 --- [http-nio-8083-exec-5] o.apache.coyote.http11.Http11Processor   : Error processing request
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:412) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:19:53.571 ERROR 2428 --- [http-nio-8083-exec-9] o.apache.coyote.http11.Http11Processor   : Error processing request
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:412) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:19:53.572  WARN 2428 --- [http-nio-8083-exec-5] o.a.catalina.connector.CoyoteAdapter     : Exception while attempting to add an entry to the access log
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:404) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:19:53.572  WARN 2428 --- [http-nio-8083-exec-9] o.a.catalina.connector.CoyoteAdapter     : Exception while attempting to add an entry to the access log
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:404) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2021-03-08 18:20:02.312 DEBUG 2428 --- [master connection closer] com.zaxxer.hikari.pool.PoolBase          : master - Closing connection oracle.jdbc.driver.T4CConnection@1c48007e: (connection has passed maxLifetime)
+2021-03-08 18:20:02.325 DEBUG 2428 --- [master connection adder] com.zaxxer.hikari.pool.HikariPool        : master - Added connection oracle.jdbc.driver.T4CConnection@297a568
+2021-03-08 18:20:02.547 DEBUG 2428 --- [master housekeeper] com.zaxxer.hikari.pool.HikariPool        : master - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-03-08 18:20:02.547 DEBUG 2428 --- [master housekeeper] com.zaxxer.hikari.pool.HikariPool        : master - Fill pool skipped, pool is at sufficient level.

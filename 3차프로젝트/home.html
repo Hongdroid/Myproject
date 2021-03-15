@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>오늘의 주파수</title>
+
+    <link rel="stylesheet" href="/static/CSS/home.css">
+
+    <script src="https://kit.fontawesome.com/8773b0d8e1.js" crossorigin="anonymous"></script>
+    <script src="/JS/main.js" defer></script>
+
+</head>
+
+<body>
+<th:block th:replace="HTML/nav :: hearder"></th:block>
+
+<main class="main">
+        <div class="main_info">
+            <hgroup class="main_titles">
+                <h3 class="main_pre-sub">성격 유형 매칭 데이팅 서비스</h3>
+                    <h2 class="main_title">오늘의 주파수</h2>
+                    <h3 class="main_pre-sub">나의 주파수와 맞는 사람은 누구?</h3>
+            </hgroup>
+        </div>
+        <div class="no">
+            <div class="container">
+                <div class="slider">
+                    <div class="item"><img src="/images/main01.svg"></div>
+                    <div class="item"><img src="/images/main02.svg"></div>
+                    <div class="item"><img src="/images/main03.svg"></div>
+                    <div class="item"><img src="/images/main04.svg"></div>
+                </div>
+            </div>
+        </div>
+        <div id="box1" class="box"></div>
+    </main>
+    <ul class="amount">
+        <li>
+            <div>
+                <div class="contents1">오늘의 주파수 신규 가입</div>
+                <div class="contents2">
+                    <p>85,226명</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">오늘 매칭 횟수</div>
+                <div class="contents2">
+                    <p>2,102,226회</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">연간 매칭 커플수</div>
+                <div class="contents2">
+                    <p>172쌍</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div class="contents1">성격검사 만족도</div>
+                <div class="contents2">
+                    <p>64.3%</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="main_text0">
+        <h1>주파수 매칭</h1>
+        <div id="mat2" class="contents1">나의 성격 유형에 맞는 상대방을 추천합니다.</div>
+        <ul class="icons">
+            <div class="icc1">
+                <li>
+                    <div class="icon_img">
+                        <img src="/images/ficto/love.svg">
+                    </div>
+                    <div class="contents1">
+                        <h3>내 주파수는?</h3>
+                    </div>
+                    <div class="contents2">
+                        <p>그저 느낌만 좋은 만남은 No!<br>
+                            내 성격 유형 파악에 도움을 주는 주파수 테스트<br>
+                            테스트 결과 토대로 내가 맞는 성향과 확실하게</p>
+                    </div>
+                </li>
+            </div>
+            <div class="icc2">
+                <li>
+                    <div class="icon_img">
+                        <img src="/images/ficto/magnet.svg">
+                    </div>
+                    <div class="contents1">
+                        <h3>주파수 매칭</h3>
+                    </div>
+                    <div class="contents2">
+                        <p>맞지 않는 상대와 대화 No!<br>
+                            랜덤 매칭이 아닌 궁합도에 따른 매칭 서비스<br>
+                            내 주파수와 맞는 주파수 회원만 매칭되는 시스템</p>
+                    </div>
+                </li>
+            </div>
+            <div class="icc3">
+                <li>
+                    <div class="icon_img">
+                        <img src="/images/ficto/message.svg">
+                    </div>
+                    <div class="contents1">
+                        <h3>주파수 채팅</h3>
+                    </div>
+                    <div class="contents2">
+                        <p>무분별한 채팅 권유 No!<br>
+                            서로 호감을 확인한 상대끼리만<br>
+                            맞는 주파수 토대로 대화 주제 추천 채팅</p>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class="main_text1">
+        <h1>SERVICE</h1>
+        <div class="contents1">이제는 나와 맞는 사람과 대화하세요</div>
+        <div class="cell">
+            <p>
+                <img src="/images/jjupa.png">
+            </p>
+            <div class="hand">
+                <div class="ho1">
+                    <div id="one" class="hov1"><i class="fas fa-check hovic"></i></div>
+                    <div id="two" class="hov2"><i class="fas fa-heart hovic"></i></div>
+                    <div id="three" class="hov3"><i class="far fa-clone hovic"></i></div>
+                </div>
+                <div class="ho2">
+                    <div id="four" class="hov1"><i class="far fa-comment-dots hovic"></i></div>
+                    <div id="five" class="hov2"><i class="far fa-address-card hovic"></i></div>
+                    <div id="six" class="hov3"><i class="fas fa-user-friends hovic"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="photo">
+                <img src="/images/love.jpg">
+            </div>
+            <div class="cc2">
+                <div class="contents2">
+                    <br>
+                    <h1 class="bottom-title">나랑 맞는 상대와 자연스러운 대화</h1>
+                    <p class="bottom-contents">
+                        <br><br>
+                        🤎 나의 연애유형을 확인할 수 있는 주파수 테스트<br>
+                        <br>
+                        🧡 테스트 결과를 토대로 나와 맞는 성향과 확실하게<br>
+                        <br>
+                        💛 무분별한 랜덤 매칭이 아닌 연애유형 맞춤 매칭!<br>
+                        <br>
+                        💚 서로 호감을 확인한 상대끼리만<br>
+                        <br>
+                        💜 자연스러운 대화를 위한 대화 주제 추천 서비스<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<th:block th:replace="HTML/nav :: footer"></th:block>
+
+
+</body>
+
+</html>

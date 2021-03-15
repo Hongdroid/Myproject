@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>사진</th>
+                <th>아이디</th>
+                <th>이름</th>
+                <th>생년월일</th>
+                <th>성별</th>
+                <th>흡연</th>
+                <th>음주</th>
+                <th>지역</th>
+                <th>취미</th>
+                <th>타입</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="list : ${matchList}">
+                <td th:text="${list.userImg}"></td>
+                <td th:text="${list.userId}"></td>
+                <td th:text="${list.userName}"></td>
+                <td th:text="${list.userBirth}"></td>
+                <td th:text="${list.userSex}"></td>
+                <td th:text="${list.userSmoke}"></td>
+                <td th:text="${list.userDrink}"></td>
+                <td th:text="${list.userLoc}"></td>
+                <td th:text="${list.userHobby}"></td>
+                <td th:text="${list.userType}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>주파수 매칭</title>
+
+  <link rel="stylesheet" href="../CSS/tornament.css">
+  <link rel="stylesheet" th:href="@{/CSS/heart.css}">
+
+  <script th:inline="javascript">
+    var testValue = [[${matchList}]];
+  </script>
+
+  <script src="https://kit.fontawesome.com/8773b0d8e1.js" crossorigin="anonymous"></script>
+  <script th:src="@{/JS/face.js}" defer></script>
+  <script th:src="@{/JS/tournament.js}" async defer></script>
+  <script th:src="@{/JS/jquery-3.5.1.js}" defer></script>
+
+</head>
+
+<body>
+<th:block th:replace="HTML/nav :: hearder"></th:block>
+
+<section class="l-wrapper">
+  <img id="matchimg" src="/images/match.gif" alt="">
+  <img id="likeimg" src="/images/like.gif" alt="">
+  <div class="title">
+
+    <button id="roundTitle" onclick="imglike(),pagemove()">시그널 보내는중!</button>
+  </div>
+  </section>
+  <div id="tor"  onload="preLoaingImg()">
+    <div class="wrap" >
+      <div class="content default" id="content" >
+        <button id="btnGameStart" onclick="start()">SIGNAL</button>
+
+      </div>
+      <div class="footer soff" id="footer">
+        <button id="cancel" onclick="lezhin.Event.clickCancel()">취소</button>
+        <button id="prev" onclick="lezhin.Event.clickPrev()">이전</button>
+      </div>
+    </div>
+  </div>
+  <th:block th:replace="HTML/nav :: footer"></th:block>
+
+</body>
+
+</html>

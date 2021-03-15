@@ -1,0 +1,234 @@
+@font-face{
+    font-family: "my font";
+    src: url(/font/NIXGONFONTS-B-2.0.ttf);
+}
+
+@font-face{
+    font-family: "my font2";
+    src: url(/font/NIXGONFONTS-M-2.0.ttf);
+}
+
+/*반응형 텍스트 사이즈 고려*/
+:root {
+    font-size: 62.5%; /*10px*/
+}
+
+body {
+    font-size: 1.4rem; /*rem : root의 em, 10px의 1.4배*/
+    font-family: "my font";
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    margin-left: 80px;
+   border: white 1px solid;
+    background-color: salmon;
+    border-radius: 12px;
+   color: white;
+   
+}
+
+/*초기화*/
+body, h1, p {
+    background-color: salmon;
+    color: snow;
+    margin: 0;
+    font-size: 50px;
+}
+p{
+    background-color: rgba(0, 0, 0, 0);   
+    box-shadow: inset 0 0 5px rgba(0, 0, 0,0);
+}
+
+/*가운데 정렬*/
+.layout_wrapper {
+    width: auto; /*창 줄여도 안짤리게*/
+    max-width: 1200px; /*최대치 지정*/
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+/*헤더 텍스트*/
+h1 {
+    font-size: inherit; /*inherit : 부모 속성 상속*/
+    font-weight: inherit;
+}
+
+.header {
+    display: flex;
+    padding: 2rem 0; /*텍스트 사이즈따라 간격이 조절되도록*/
+    align-items: center;
+}
+
+.header-title {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+.header-title strong {
+    display: block; /*블럭 속성으로 br태그 없이 줄바꿈*/
+}
+
+.header-meta {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/*제목에 중간 바 div 마크업 없이, 가상요소로 만들어내기
+inline 속성이고, 부모에 flax를 주면 한 줄에 나열
++) content: 'text'적으면 마크업 없이 css에서도 텍스트 들어감*/
+.header-meta::before {
+    content: ' ';
+    background-color: currentColor; /*부모 색상을 따라감*/
+    margin: 0 2em;
+    width: 2em;
+    height: 2px ;
+}
+
+
+
+/***** content ******/
+
+ol, p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+h2 {
+    font-size: inherit;
+    font-weight: inherit;
+   
+}
+
+
+.question li {
+    border-radius: 4px;
+}
+
+.question li:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.4);   
+    box-shadow: inset 0 0 5px rgba(0, 0, 0,0.2);
+}
+
+
+.parts {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.parts-num {
+    width: 30%;
+    max-width: 20em;
+    flex-shrink: 0; /*지정했던 위 30% 여백 창 작아져도 축소 안되게*/
+    display: flex;
+    justify-content: center;
+}
+
+.parts-num span {
+    margin: 0 0.2em;
+}
+
+.parts-content {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.parts-agenda {
+    
+    font-size: 2rem;
+    padding-left: 30px;
+    width: 500px; 
+    flex-shrink: 0; /*지정했던 위 30% 여백 창 작아져도 축소 안되게*/
+    display: flex;
+    justify-content: center;
+    margin: 0 0.2em;
+}
+
+.parts-agenda h2 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+
+    
+}
+.parts-agenda h4 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+   
+}
+
+
+
+@media (max-width: 720px) {
+    /*폰트 사이즈 작아지게*/
+    :root {
+        font-size: 30%;
+    }
+
+    .header{
+        display: block; 
+    }
+
+    .header-meta {
+        display: block;
+    }
+
+    /*block일때도 가상 요소 사라지지 않게*/
+    .header-meta::before {
+        display: block;
+        margin: 2rem 0;
+    }
+
+    .contents {
+        margin: 0 -4px;
+    }
+    h4{
+        margin-right: 110px;
+    }
+    h2{
+        margin-right: 120px;
+        width: 250px;
+    }
+    .parts-agenda{
+        width: 140px;
+        
+    }
+    button{
+        width: 70px;
+        height: 30px;
+        font-size: 3px;
+       margin-left:0px;
+        
+    }
+
+
+}
+
+
+
+
+
+.result1{
+   display: none;
+}
+.result2{
+    display: none;
+ }
+ .result3{
+    display: none;
+ }
+ .result4{
+    display: none;
+ }
+

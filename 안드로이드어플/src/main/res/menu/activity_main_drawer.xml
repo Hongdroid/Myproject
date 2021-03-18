@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_match"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Match" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Test" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="MyPage" />
+
+    </group>
+</menu>
